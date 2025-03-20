@@ -20,5 +20,9 @@
   "workspaces": [
     "apps/*",
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "@nestjs/mapped-types": "*",
+    "@repo/typescript-config": "^0.0.0"
+  }
 }
